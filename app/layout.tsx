@@ -7,6 +7,17 @@ const manrope = Manrope({
   weight: ["400", "500", "600", "700", "800"],
 });
 
+export const metadata: Metadata = {
+  title: "Mekark Electronics — Precision Electronics Manufacturing & Solutions",
+  description:
+    "Mekark Electronics delivers end-to-end electronics manufacturing services — from PCB design and prototyping to full-scale production. Trusted by industry leaders for quality, speed, and reliability.",
+  icons: {
+    icon: "/Images/LogoMekark.png",
+    shortcut: "/Images/LogoMekark.png",
+    apple: "/Images/LogoMekark.png",
+  },
+};
+
 export default function RootLayout({
   children,
 }: {
