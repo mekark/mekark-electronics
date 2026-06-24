@@ -112,7 +112,7 @@ export default function AboutMekark() {
                   text-transparent
                 "
               >
-                25+
+                18+
               </div>
 
               <p className="mt-2 max-w-[170px] text-sm leading-5 text-white/70">

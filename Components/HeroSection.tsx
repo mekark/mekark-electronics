@@ -14,7 +14,7 @@ const stats = [
     label: "Steel Production Per Year",
   },
   {
-    value: "500+",
+    value: "450+",
     label: "Projects Delivered",
   },
   {
@@ -171,9 +171,9 @@ export default function Hero() {
                         </>
                       )}
 
-                      {item.value === "500+" && (
+                      {item.value === "450+" && (
                         <>
-                          500<span className="text-[#ED2024]">+</span>
+                          450<span className="text-[#ED2024]">+</span>
                         </>
                       )}
 
