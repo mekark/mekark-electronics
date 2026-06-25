@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
+import ScrollToTop from "@/Components/ScrollToTop";
 import "./globals.css";
 
 const manrope = Manrope({
@@ -27,6 +28,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={manrope.className}>
         {children}
+        <ScrollToTop />
       </body>
     </html>
   );
