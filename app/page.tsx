@@ -3,7 +3,7 @@ import TrustedBar from "@/Components/TrustedBar";
 import Testimonials from "@/Components/TestimonialSection";
 import AboutMekark from "@/Components/About";
 import ServicesSection from "@/Components/Services";
-import CTASection from "@/Components/CTASection";``
+import CTASection from "@/Components/CTASection";
 import AdvantageSection from "@/Components/Advantage";
 import ProcessTimeline from "@/Components/ProcessTimeline";
 import FaqSection from "@/Components/Faq";

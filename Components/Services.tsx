@@ -162,7 +162,7 @@ const headingLines = [
 
 export default function ServicesSection() {
   return (
-    <section className="relative overflow-hidden bg-[#131313] py-[70px]">
+    <section id="our-services" className="relative overflow-hidden bg-[#131313] py-[70px]">
       {/* Ambient glow */}
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}

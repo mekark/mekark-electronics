@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import { scrollToSection } from "@/lib/scroll";
 
 const stats = [
   {
@@ -119,7 +120,11 @@ export default function Hero() {
                 }}
                 className="mt-12 lg:mt-10 flex flex-wrap gap-4"
               >
-                <button className="group flex h-14 items-center gap-2 rounded-xl bg-[#E40015] px-7 font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-[#c40012]">
+                <button
+                  type="button"
+                  onClick={() => scrollToSection("footer-contact-form")}
+                  className="group flex h-14 items-center gap-2 rounded-xl bg-[#E40015] px-7 font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-[#c40012]"
+                >
                   Get a Free Consultation
                   <ArrowRight
                     size={18}
@@ -127,7 +132,11 @@ export default function Hero() {
                   />
                 </button>
 
-                <button className="h-14 rounded-xl border border-white/15 bg-white/[0.04] px-7 font-semibold text-white backdrop-blur-xl transition-all duration-300 hover:bg-white/10">
+                <button
+                  type="button"
+                  onClick={() => scrollToSection("our-services")}
+                  className="h-14 rounded-xl border border-white/15 bg-white/[0.04] px-7 font-semibold text-white backdrop-blur-xl transition-all duration-300 hover:bg-white/10"
+                >
                   View Our Services
                 </button>
               </motion.div>
